@@ -1,0 +1,13 @@
+Package: ToolboxSearch
+Type: Package
+Title: An R package for working with Toolbox corpora
+Version: 0.1-0
+Date: 2011-05-20
+Author: Taras Zakharko
+Maintainer: Taras Zakharko <taras.zakharko@uzh.ch>
+Description: This software is created for linguists who want to evaluate Toolbox corpora in R.  It allows you to read a Toolbox corpus (or multiple corpora) into R and extract subsets of it using a flexible query language. 
+License:  GPL
+Depends: R (>= 2.15.0)
+LazyLoad: yes
+URL: https://bitbucket.org/tzakharko/toolboxsearch
+BugReports: https://bitbucket.org/tzakharko/toolboxsearch/issues

@@ -1,0 +1,2 @@
+OBJECTS = import/tbreader.o utf8proc/utf8proc.o nfa/nfa.o utils/utils.o parser/parse.o
+ 

@@ -1,0 +1,9 @@
+To install the package, clone the repository, open it in terminal and  run
+
+   R CMD install .
+
+Consult the manual on how to use the package
+
+
+
+

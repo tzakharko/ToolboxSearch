@@ -1,0 +1,33 @@
+useDynLib(ToolboxSearch)
+
+
+# toolboxFormat exports
+export(toolboxFormat)
+
+S3method(print, toolbox.format.descriptor)
+S3method(as.character, toolbox.format.descriptor)
+S3method("$", toolbox.format.descriptor)
+S3method("[", toolbox.format.descriptor)
+
+S3method(levels, toolbox.format.descriptor)
+
+# language.corpus exports
+
+export(readToolbox, parse.log, length.corpus, concat.corpus, writeToolbox, format.descriptor, "format.descriptor<-", corpus.query)
+
+S3method("[", language.corpus)
+S3method("[<-", language.corpus)
+S3method(subset, language.corpus)
+S3method(as.data.frame, language.corpus)
+S3method(print, language.corpus)
+S3method("%%", language.corpus)
+
+
+# language.corpus.subset exports
+
+export(index.corpus)
+
+S3method("+", language.corpus.subset)
+S3method("*", language.corpus.subset)
+S3method("-", language.corpus.subset)
+S3method("print", language.corpus.subset)

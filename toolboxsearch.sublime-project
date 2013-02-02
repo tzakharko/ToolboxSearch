@@ -1,0 +1,40 @@
+{
+	"build_systems":
+	[
+		{
+			"cancel": "terminus_cancel_build",
+			"cmd":
+			[
+				"python3",
+				"$file"
+			],
+			"selector": "source.python",
+			"name": "Run Python3",
+			"target": "terminus_exec",
+			"working_dir": "$project_path"
+		},
+		{
+			"cancel": "terminus_cancel_build",
+			"cmd":
+			[
+				"Rscript",
+				"$file"
+			],
+			"selector": "source.r",
+			"name": "Run R script",
+			"target": "terminus_exec",
+			"working_dir": "$project_path"
+		}
+	],
+	"settings": {
+		"rulers": [80],
+		"tab_size": 2,
+  		"translate_tabs_to_spaces": true,
+	},
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	]
+}
